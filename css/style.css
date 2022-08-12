@@ -5,3 +5,8 @@ header{
 header p {
     color:#265463;
 }
+
+.calculator{
+    height:700px;
+    background-color: beige;
+}
