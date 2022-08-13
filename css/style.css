@@ -32,3 +32,53 @@ h3{
 h6{
     color:#562182;
 }
+
+
+
+.calculation{
+    margin-top: 40px;
+}
+input[type="text"]{
+    width:80%;
+    border:none;
+    border-radius: 7px;
+    background-color:#F0F0F0;
+    height:40px;
+}
+h5{
+    margin-top:30px;
+    margin-bottom:15px;
+    color:#562182;
+}
+
+#btn_clear{
+    width:80%;
+    height:40px;
+    margin-top:30px;
+    border:none;
+    border-radius: 7px;
+    background-color: #931F6D;
+    color:white;
+    font-size:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,5f5d9b+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #5f5d9b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#5f5d9b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#5f5d9b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#5f5d9b',GradientType=0 ); /* IE6-9 */
+
+}
