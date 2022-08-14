@@ -10,9 +10,6 @@ header p {
     color:#931F6D;
 }
 
-.calculator{
-    height:1000px;
-}
 
 .select_products{
     margin-left:15%;
@@ -75,7 +72,9 @@ h5{
     margin-right:10px;
 }
 
-
+.image img{
+    width:100%;
+}
 
 
 
@@ -87,5 +86,4 @@ background: -moz-linear-gradient(top,  #ffffff 0%, #5f5d9b 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  #ffffff 0%,#5f5d9b 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  #ffffff 0%,#5f5d9b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#5f5d9b',GradientType=0 ); /* IE6-9 */
-
 }
