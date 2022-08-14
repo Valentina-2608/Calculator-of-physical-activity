@@ -65,9 +65,15 @@ h5{
 
 
 
+.activity p{
+    margin-top:30px;
+    margin-left:70px;
+    color:#562182;
+}
 
-
-
+.activity input{
+    margin-right:10px;
+}
 
 
 
