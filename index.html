@@ -154,13 +154,15 @@
         <div class="col-sm-12 col-md-6 col-lg-4">
           <h3 class="mt-5 text-center">Calculation</h3>
           <div class="calculation">
-            <h5>Calorie content of food/100 gr</h5>
-            <input type="text" value="" readonly>
-            <h5>Weight,kg</h5>
-            <input type="text" value="" placeholder="Enter your weight">
-            <h5>Result</h5>
-            <input type="text" value="" placeholder="Result">
-            <button type="button" id="btn_clear">Clear</button>
+            <form id="my_form" name = "my_form">
+              <h5>Calorie content of food/100 gr</h5>
+              <input type="text" value="" readonly id="calorie">
+              <h5>Weight,kg</h5>
+              <input type="text" value="" placeholder="Enter your weight" id="user_weight">
+              <h5>Time/min</h5>
+              <input type="text" value="" placeholder="Result" id="result">
+              <button type="button" id="btn_clear">Clear</button>
+            </form>
           </div>
           <div class="image mt-5">
             <img src="img/lifestyle.jpg">
@@ -170,63 +172,63 @@
           <h3 class="mt-5 text-center">Types of activities</h3>
           <div class="activity mt-5">
             <p>
-              <input type="radio" id="radio1">
+              <input type="radio" id="radio1" value="0.055" name="radio">
               <label for="radio1">Slow walking (3km/h)</label>
             </p>
            <p>
-            <input type="radio" id="radio2">
+            <input type="radio" id="radio2" value="0.0766" name="radio">
             <label for="radio2">Fast walking (6km/h)</label>
            </p>
            <p>
-            <input type="radio" id="radio3">
+            <input type="radio" id="radio3" value="0.1666" name="radio">
            <label for="radio3">Very fast walking (8km/h)</label>
            </p>
            <p>
-            <input type="radio" id="radio4">
+            <input type="radio" id="radio4" value="0.1533"name="radio" >
             <label for="radio4">Running at a slow pace</label>
            </p>
            <p>
-            <input type="radio" id="radio5">
+            <input type="radio" id="radio5" value="0.1916" name="radio">
             <label for="radio5">Running at a fast pace</label>
            </p>
            <p>
-            <input type="radio" id="radio6">
+            <input type="radio" id="radio6" value="0.7666"name="radio" >
             <label for="radio6">Aerobics</label>
            </p>
            <p>
-            <input type="radio" id="radio7">
+            <input type="radio" id="radio7" value="0.7666"name="radio" >
             <label for="radio7">Cycling</label>
            </p>
            <p>
-            <input type="radio" id="radio8">
+            <input type="radio" id="radio8" value="0.1016" name="radio">
             <label for="radio8">Swimming</label>
            </p>
            <p>
-            <input type="radio" id="radio9">
+            <input type="radio" id="radio9" value="0.115" name="radio" >
             <label for="radio9">Tennis</label>
            </p>
            <p>
-            <input type="radio" id="radio10">
+            <input type="radio" id="radio10" value="0.1533" name="radio" >
             <label for="radio10">Skiing</label>
            </p>
            <p>
-            <input type="radio" id="radio11">
-            <label for="radio11">Skating</label>
+            <input type="radio" id="radio11" value="0.1266" name="radio" >
+            <label for="radio11">Skating</label> 
            </p>
            <p>
-            <input type="radio" id="radio12">
+            <input type="radio" id="radio12" value="0.12" name="radio" >
             <label for="radio12">Jumping rope</label>
            </p>
            <p>
-            <input type="radio" id="radio13">
+            <input type="radio" id="radio13" value="0.0648" name="radio" >
             <label for="radio13">Sports exercises</label>
            </p>
            <p>
-            <input type="radio" id="radio14">
+            <input type="radio" id="radio14" value="0.0530" name="radio" >
             <label for="radio14">Housework</label>
            </p>
            <p>
-            <input type="radio" id="radio15">
+            <input type="radio" id="radio15" value="0.1366" name="radio" >
             <label for="radio15">Boxing</label>
            </p>
           
