@@ -26,7 +26,15 @@ for(let elem1 of all_radio){
 
 function calculation(){
 if (getValue){
-result.value = Math.round(input1.value/(input2.value*this.value));
+result_calculation = Math.round(input1.value/(input2.value*this.value));
+let result1 = result_calculation;
+if (result1 < 60){
+    result.value = result1 + ' min';
+} else if (result1 > 60){
+    result.value = Math.trunc(result1/60 )+ ' hours' + ' '+ result1 % 60 + ' min';
+} else if (result1 === 60){
+    result.value = result1 + ' hour';
+}
 }
 }
 
