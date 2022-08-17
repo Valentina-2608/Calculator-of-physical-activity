@@ -19,7 +19,8 @@ select{
     height:30px;
     border-radius:7px; 
     border:none;
-    background-color:#F0F0F0;}
+    background-color:#F0F0F0;
+}
 
 
 h3{
@@ -30,7 +31,9 @@ h6{
     color:#562182;
 }
 
-
+.active{
+    font-weight:bold;
+}
 
 .calculation{
     margin-top: 40px;
@@ -77,6 +80,17 @@ h5{
 }
 
 
+input[type="radio"]{
+    cursor:pointer;
+}
+
+label{
+    cursor:pointer;
+}
+
+label:hover{
+    font-weight:bold;
+}
 
 
 footer{
