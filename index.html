@@ -4,11 +4,247 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Calculator</title>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
- </head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
   <body>
-   
+   <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-3 col-lg-2">
+          <p class="ms-3 mt-2">
+            <img src="img/logo.jpg" width="120px">
+          </p>
+        </div>
+        <div class="col-sm-12 col-md-9 col-lg-10 ">
+          <p class="text-center fs-1 text fst-italic mt-4">
+             Calculator of physical activity
+          </p>
+        </div>
+      </div>
+    </div>
+   </header>
+   <div class="calculator">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <h3 class="mt-5 text-center">Food</h3>
+          <div class="select_products mt-4">
+            <h6>Flour products</h6>
+            <select>
+              <option>Select product</option>
+              <option value="544">Waffles</option>
+              <option value="518">Chocolate waffles</option>
+              <option value="358">Fruits waffles</option>
+              <option value="438">Crackers</option>
+              <option value="350">Cake</option>
+              <option value="350">Gingerbread</option>
+              <option value="458">Cookies</option>
+            </select>
+          </div>
+          <div class="select_products mt-4">
+            <h6>Baking</h6>
+            <select>
+              <option>Select product</option>
+              <option value="286">Pancake</option>
+              <option value="640">Panckake with cheese</option>
+              <option value="296">Donut</option>
+              <option value="186">Apple pie</option>
+              <option value="284">Pie with jam</option>
+            </select>
+          </div>
+          <div class="select_products mt-4">
+            <h6>Candies</h6>
+            <select>
+              <option>Select product</option>
+              <option value="320">Marmalade</option>
+              <option value="400">Toffee</option>
+              <option value="527">Bars</option>
+              <option value="451">Chocolate bars</option>
+              <option value="487">Chocolate dragee</option>
+            </select>
+          </div>
+
+          <div class="select_products mt-4">
+            <h6>Chocolate</h6>
+            <select>
+              <option>Select product</option>
+              <option value="278">White chocolate</option>
+              <option value="549">Milk chocolate</option>
+              <option value="549">Dark chocolate</option>
+              <option value="450">Chocolate with filling</option>
+              <option value="549">Bubble chocolate</option>
+            </select>
+          </div>
+          <div class="select_products mt-4">
+            <h6>Ice cream</h6>
+            <select>
+              <option>Select product</option>
+              <option value="126">Milk ice cream</option>
+              <option value="216">Chocolate ice cream</option>
+              <option value="225">Sundae</option>
+              <option value="362">Chocolate sundae</option>
+              <option value="250">Сreme brulee</option>
+            </select>
+          </div>
+          <div class="select_products mt-4">
+            <h6>Jam</h6>
+            <select>
+              <option>Select product</option>
+              <option value="271">Pear jam</option>
+              <option value="285">Strawberry jam</option>
+              <option value="275">Rasberry jam</option>
+              <option value="281">Plum jam</option>
+              <option value="254">Apple jam</option>
+            </select>
+          </div>
+          <div class="select_products mt-4">
+            <h6>Fast food</h6>
+            <select>
+              <option>Select product</option>
+              <option value="312">French fries</option>
+              <option value="259">Hamburger</option>
+              <option value="177">Vegetarian hamburger</option>
+              <option value="269">Sandwich</option>
+              <option value="168">Vegetarian sandwich</option>
+              <option value="282">Cheeseburger</option>
+              <option value="256">Pizza</option>
+              <option value="230">Vegetarian pizza</option>
+            </select>
+          </div>
+          <div class="select_products mt-4">
+            <h6>Snacks</h6>
+            <select>
+              <option>Select product</option>
+              <option value="549">Potato chips</option>
+              <option value="488">Corn chips</option>
+              <option value="607">Salted peanuts</option>
+              <option value="374">Popcorn</option>
+              <option value="504">Cracker</option>
+            </select>
+          </div>
+          <div class="select_products mt-4">
+            <h6>Nuts, seeds</h6>
+            <select>
+              <option>Select product</option>
+              <option value="551">Peanut</option>
+              <option value="633">Cashew</option>
+              <option value="649">Almond</option>
+              <option value="610">Pistachios</option>
+              <option value="707">Hazelnut</option>
+              <option value="580">Pumpkin seeds</option>
+              <option value="610">Sunflower seeds</option>
+            </select>
+          </div>
+          <div class="select_products mt-4">
+            <h6>Sausage products</h6>
+            <select>
+              <option>Select product</option>
+              <option value="229">Sausages</option>
+              <option value="270">Sausages with cheese</option>
+              <option value="290">Frankfurter</option>
+              <option value="360">Smoked sausage</option>
+            </select>
+          </div>
+
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <h3 class="mt-5 text-center">Calculation</h3>
+          <div class="calculation">
+            <form id="my_form" name = "my_form">
+              <h5>Calorie content of food/100 gr</h5>
+              <input type="text" value="" readonly id="calorie">
+              <h5>Weight,kg</h5>
+              <input type="text" value="" placeholder="Enter your weight" id="user_weight">
+              <h5>Time to burn calories</h5>
+              <input type="text" value="" placeholder="Result" id="result">
+              <button type="button" id="btn_clear">Clear</button>
+            </form>
+          </div>
+          <div class="image mt-5">
+            <img src="img/lifestyle.jpg">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <h3 class="mt-5 text-center">Types of activities</h3>
+          <div class="activity mt-5">
+            <p>
+              <input type="radio" id="radio1" value="0.055" name="radio">
+              <label for="radio1">Slow walking (3km/h)</label>
+            </p>
+           <p>
+            <input type="radio" id="radio2" value="0.0766" name="radio">
+            <label for="radio2">Fast walking (6km/h)</label>
+           </p>
+           <p>
+            <input type="radio" id="radio3" value="0.1666" name="radio">
+           <label for="radio3">Very fast walking (8km/h)</label>
+           </p>
+           <p>
+            <input type="radio" id="radio4" value="0.1533"name="radio" >
+            <label for="radio4">Running at a slow pace</label>
+           </p>
+           <p>
+            <input type="radio" id="radio5" value="0.1916" name="radio">
+            <label for="radio5">Running at a fast pace</label>
+           </p>
+           <p>
+            <input type="radio" id="radio6" value="0.7666"name="radio" >
+            <label for="radio6">Aerobics</label>
+           </p>
+           <p>
+            <input type="radio" id="radio7" value="0.7666"name="radio" >
+            <label for="radio7">Cycling</label>
+           </p>
+           <p>
+            <input type="radio" id="radio8" value="0.1016" name="radio">
+            <label for="radio8">Swimming</label>
+           </p>
+           <p>
+            <input type="radio" id="radio9" value="0.115" name="radio" >
+            <label for="radio9">Tennis</label>
+           </p>
+           <p>
+            <input type="radio" id="radio10" value="0.1533" name="radio" >
+            <label for="radio10">Skiing</label>
+           </p>
+           <p>
+            <input type="radio" id="radio11" value="0.1266" name="radio" >
+            <label for="radio11">Skating</label> 
+           </p>
+           <p>
+            <input type="radio" id="radio12" value="0.12" name="radio" >
+            <label for="radio12">Jumping rope</label>
+           </p>
+           <p>
+            <input type="radio" id="radio13" value="0.0648" name="radio" >
+            <label for="radio13">Sports exercises</label>
+           </p>
+           <p>
+            <input type="radio" id="radio14" value="0.0530" name="radio" >
+            <label for="radio14">Housework</label>
+           </p>
+           <p>
+            <input type="radio" id="radio15" value="0.1366" name="radio" >
+            <label for="radio15">Boxing</label>
+           </p>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-2"><p class="pt-3">2022.</p></div>
+        <div class="col-sm-12 col-md-6 col-lg-10"><p class="pt-3"> All pictures were found in Google and on various sites.</p></div>
+      </div>
+      </div>
+   </footer>
+   <script src="js/My_script.js"></script>
   </body>
 </html>
